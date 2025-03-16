@@ -116,9 +116,9 @@ class _MyAppState extends State<MyApp> {
                       onPressed: () {
                         setState(() {
                           if (fontSize == 30) {
-                            fontSize = 40; // تكبير النص
+                            fontSize = 40;
                           } else {
-                            fontSize = 30; // تصغير النص
+                            fontSize = 30;
                           }
                         });
                       },
